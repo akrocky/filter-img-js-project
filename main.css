@@ -1,0 +1,64 @@
+* {
+    margin:0 ;
+    padding: 0;
+}
+body {
+    background-color: #EEEEEE; 
+}
+section {
+    width: 85%;
+    margin: 80px auto;
+}
+section h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    font-size: 2em;
+}
+.btn12 {
+margin-left: 250px;
+}
+button{
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+}
+button:hover{
+    background-color: tomato;
+    color: whitesmoke;
+}
+/* ul{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.75);
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+li {
+ list-style: none;
+ background-color: rgba(255, 255, 255, 0.5);
+ padding: 10px 20px;
+ margin: 0 15px;
+ font-size: 1.5em;
+}
+li:hover{
+    background-color: rosybrown;
+} */
+.products{
+    width: 100%;
+    padding: 0 0.5px;
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+.products img{
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    
+}
